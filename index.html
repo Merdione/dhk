@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="header">
+     <div class="header-title"></div>
+        <center>
+            <ul>
+                <li><button onclick="home()">Anasayfa</button></li>
+                <li><button onclick="projects()">Projeler</button></li>
+                <li><button onclick="sponsorlar()">Sponsorlar</button></li>
+                <li><button onclick="galeri()">Galeri</button></li> 
+                <li><button onclick="contact()">İletişim</button></li>
+            </ul>
+        </center>
+    </div>
+    <div id="hakkımızda" class="hakkımızda">
+        <h3 class="hakkımızda-title">Biz Kimiz?</h3>
+        <p style="margin-top:30px;"> 
+          Kulübümüz, Dörtyol Fen Lisesinde eğitim gören ve havacılığa ilgi duyan öğrencilerden oluşmaktadır. 2021 yılında ateşlenen havacılık sevdası sonucunda okulumuz Teknofestin Liseler Arası İnsansız Hava Araçları Yarışmasına katılmış ve finalist olmuştur. 2021 ve 2022 yıllarında gerçekleşen yarışmalarda döner kanat kategorisinde  finalist olduktan sonra 2023'teki yarışmaya bir sabit kanat ve bir döner kanat olmak üzere toplamda iki tane İHA ile katılmayı planlamaktadır.
+
+       </p>
+       
+       <div class="img">
+    </div>
+    </div>
+
+    <div id="contact" class="contact">
+        <h2 class="contact-title">Bize Ulaşın</h2> <br>
+        <form action="https://formspree.io/f/xlevzaqn" method="post" name="pmForm"> <br>
+            <input name="Ad" type="text" placeholder="Ad"> <br>
+            <input name="Soyad" type="text" placeholder="Soyad"> <br>
+            <input id="mail" type="email"name="E-Posta" type="text" placeholder="E-Posta"> <br>
+            <textarea name="Mesaj "style="resize:vertical;" name="" id="" cols="30" rows="10" placeholder="Mesaj"></textarea> <br>
+            <input  onclick="sendMail()" id="input-button" class="input-button hover" type="submit" value="Gönder">
+        
+            <br>
+        </form>
+    </div>
+
+    <div class="sponsorlar" id="sponsorlar">
+     
+        <div class="sponsorOl">
+            <p class="sponsor-text">Yarışmalara katılırken bir takım masraflar oluşmaktadır. Kulubümüz masrafların bir takımını kendi bütçesiyle karşılasa bile bazen bu miktar yetemeyebiliyor. Eğer bize maddi olarak destek vermek isterseniz bizleri çok mutlu edersiniz.</p>
+            <button class="sponsor-button" onclick="contact()">İletişim</button>
+        </div>
+
+      
+    </div>
+
+
+    <div id="galeri" class="galeri">
+        <h2 style="text-align:center;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-top:100px; font-size:30px;">Fotoğraflar</h2>
+      <div class="image1" >
+
+      </div>
+      <div class="image2" >
+
+    </div>
+    <div class="image3" >
+
+    </div>
+      
+
+
+    </div>
+    
+   
+</body>
+</html>

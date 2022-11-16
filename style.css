@@ -1,0 +1,277 @@
+* {
+    margin:0;
+    bottom:0;
+}
+
+body {
+   background-color:white;
+   overflow-x:hidden;
+   
+}
+.header {
+    height:120px;
+    width:100%;
+    line-height:120px;
+    background-color:rgb(3, 20, 77);
+    color:white;
+    justify-items:space-around;
+    position:relative;
+
+ 
+ 
+}
+ul {
+    display:flex;
+    justify-content:center;
+    
+}
+
+li {
+    list-style:none;
+    margin-left:5px;
+    
+
+}
+
+button {
+    height:40px;
+    width:120px;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    transition:0.2s;
+    background-color:transparent;
+    font-size:16px;
+    color:white;
+}
+
+button:hover {
+    transform:scale(1.1);
+}
+
+.header-title {
+    font-family:sans-serif;
+    float:left;
+    background-image:url('logobeyaz.png');
+    height:120px;
+    width:200px;
+    background-size:100%;
+    background-repeat:no-repeat;
+    margin-top:-38px;
+    transition:0.2s;
+    
+    
+
+   
+}
+
+.header-title:hover {
+    transform:scale(1.05);
+}
+.hakkımızda {
+    margin:auto;
+    height:500px;
+    width:500px;
+    font-size:20px;
+    margin-top:100px;
+
+}
+
+.contact {
+  
+    text-align:center;
+    margin-top:50px;
+    display:none;
+}
+
+.contact-title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+    text-align:center;
+    
+}
+input {
+    margin-top:20px;
+    height:40px;
+    width:300px;
+    border:1px solid lightgray;
+    border-radius:3px;
+    background-color:whitesmoke;
+
+}
+textarea {
+    margin-top:20px;
+    height:40px;
+    width:300px;
+    background-color:whitesmoke;
+    border:1px solid lightgray;
+    border-radius:3px;
+
+}
+
+.input-button {
+    height:45px;
+    width:310px;
+    background-color:rgb(3, 20, 77);
+    color:white;
+    border:none;
+   
+}
+.hover {
+    transition:0.4s;
+}
+.hover:hover {
+    transform:scale(1.08);
+}
+
+.img {
+    height:500px;
+    width:500px;
+    background-image:url('logo.png');
+    background-size:100%;
+    margin:auto;
+    margin-top:-175px;
+    
+}
+
+.sponsorlar {
+  display:none;
+}
+
+.hakkımızda-title {
+    text-align:center; 
+    font-size:30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+@media screen  and (max-width:375px) {
+    button {
+   
+        font-size:10px;
+        height:25%;
+        width:100%;
+        background-color:rgb(3, 20, 77);
+        color:white;
+        
+         
+    }
+    
+    button:hover {
+        background-color:white;
+        color:rgb(3, 20, 77);
+    }
+    ul {
+        float:left;
+       
+    }
+    .header-title {
+        display:none;
+    }
+
+    .hakkımızda-title {
+        font-size:25px;
+    }
+    .hakkımızda {
+        width:300px;
+    }
+
+    .img {
+        height:300px;
+        width:300px;
+        margin:auto;
+        margin-top:-110px;
+     
+        
+    }
+    .sponsorOl{
+   
+      width:375px !important;
+      font-size:10px !important;
+      flex-direction:column;
+      align-items:center;
+
+    }
+
+   
+    .sponsor-button {
+        width:200px !important;
+        margin:auto !important;
+        margin-top:20px !important;
+    
+    }
+
+}
+
+.sponsorOl {
+
+
+    height:300px;
+    width:600px;
+    margin:auto;
+    margin-top:100px;
+    border-radius:5px;
+    display:flex;
+
+
+}
+.sponsor-text {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+ 
+    font-size:25px;
+
+}
+
+.sponsor-button {
+    background-color:rgb(3, 20, 77);
+    width:100px;
+    margin:auto;
+    
+
+
+    
+}
+
+
+
+.galeri {
+   display:flex;
+   display:none;
+}
+
+
+.image1 {
+    float:left;
+    height:500px;
+    width:1000px;
+ 
+    margin-top:50px;
+    background-image:url('img1.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+
+}
+
+.image2 {
+    float:right;
+    height:500px;
+    width:1000px;
+   
+    background-image:url('img2.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+
+}
+.image3 {
+    float:left;
+    height:1500px;
+    width:100vw;
+   
+
+    background-image:url('img3.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+
+}
+
